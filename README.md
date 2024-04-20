@@ -10,11 +10,12 @@ To spin up the project locally, follow these steps:
 
 1. First clone the repo
 1. Then `cd YOUR_PROJECT_REPO && cp .env.example .env.local`
+1. Install deps `bun i`
 1. Next `docker-compose up`, to start the postgres db
 1. Next `bun dev`
 1. Now `open http://localhost:3000/admin` to access the admin panel
 1. Create your first admin user using the form on the page
-1. Go to `open http://localhost:3000` and the user email should now be listed on the page
+1. Go to `http://localhost:3000` and the user email should now be listed on the page
 
 That's it!
 
